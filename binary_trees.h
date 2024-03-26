@@ -2,7 +2,6 @@
 #define _BINARY_TREES_H_
 
 #include <stdio.h>
-#include <>
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
