@@ -22,8 +22,8 @@ void check_tree(const binary_tree_t *tree, int val, int *leaf, int *height)
 		}
 		else
 		{
-			check_tree(tree->left, n + 1, leaf, height);
-			check_tree(tree->right, n + 1, leaf, height);
+			check_tree(tree->left, val + 1, leaf, height);
+			check_tree(tree->right, val + 1, leaf, height);
 		}
 	}
 }
